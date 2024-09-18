@@ -1,0 +1,72 @@
+17/09/2024
+Nombre y Apellido:
+Alan Garcia  229375
+Asignatura: Electiva III
+
+                                                  	Proyecto de app Biblioteca:
+
+Parte II: Proyecto terminado
+
+     Esta es un app en el que el usuario podra:
+        A. Iniciar sesion 
+        B.Registrarse si no tiene cuenta
+        C. Relizar las operaciones CRUD:
+               *Registrar libros
+               *Ver las lista de libros
+               *Editar (solo los campos de libro y autor)
+               *Eliminar  un libro 
+
+La presente app utiliza la base de datos  "SQLITE3" que maneja Django y como ayuda para el diseño del mismo "Bulma".
+  
+Nota: Al tratarlo de subirlo al repositorio de Github, no me dejaba ,le elimine la carpeta venv y se pudo subir.
+
+Funcionamiento:
+
+   1. La misma página le pedirá ingresar algunas de las 2 URL que encontró:
+            A. Admin/
+            B. Account/
+         Ingresar en la opción B y lo redireccionará al inicio de sesión de la app. 
+   
+   2. Para realizar la prueba de funcionamiento puede ingresar el siguiente usuario:
+                                           Usuario: admin
+                                           Contraseña: Alan1234*
+       En caso contrario, registrarse y crear su usuario en el enlace que sale en el escrito:
+                Por favor, utilice el siguiente formulario para iniciar sesión. 
+                Si no tienes una cuenta 'regístrate aquí'.
+   
+   3. La app se le han realizado cambios en cuento al diseño y su funcionalidad, una vez que ingrese a la app, se le desplegara un menú, que dice "libros" en la parte superior izquierda, y al campo de la parte superior derecha el botón de  "cerrar sesión"  con un saludo y el nombre del usuario. 
+
+   En el centro  se visualizará  un card donde podrá ingresar los datos correspondientes, cabe indicar que la misma tiene algunas limitaciones:
+         El código máximo 6 caracteres.
+         El nombre máximo 50 "".
+         El nombre del autor máximo 60 "".
+     A su lado podra observar la "Lista de libros" en el cual puede ver los libros que registra, y realizar las operaciones de editar y eliminar:
+            *Cuando haga clic sobre el boton editar lo redirigira a otra pagina en el cual podra realizar las modificaciones mencionadas al inicio.
+            *Cuando haga clic sobre el boton eliminar, se borrara el registro.
+
+Desarrollo:
+        Para la creación de la app, utilice el video subido al Classroom. Del mismo realice modificaciones en cuanto las plantillas, views, URL, debido a que en primera instancia utilice el video mencionado en la anterior descripción.
+
+ Advertencias:
+       Después de haber realizado 5 pruebas, se concluye que la app funciona correctamente.
+          1. El intentar cambiar o ingresar otras rutas no indicadas, le arrojará errores. 
+          2. Al insertar nuevas rutas para la mejora de la app, la opción de cambiar contraseña quedo eliminada, así que el intentar ingresar la ruta indicada en la anterior descripción le dará (página error 404 rutas no encontrada). De suceder esto, solo debe ingresar la ruta anterior o cliquear en la flechita hacia atrás.
+          3. La app es una versión beta, por lo tanto, su uso es sencillamente estudiantil, para su aplicación real se tendría que realizar mejoras
+en cuantos los SMS de emergencias, el diseño y la base de datos.
+         4. Al pulsar sobre el botón de eliminar mencionado ya, se eliminará completamente el libro, así que de realizar esta operación, tiene que estar seguro.
+         5. El ingresar más datos sobre los inputs y pasar la limitación, le arrojará error. En todo caso solo deberá cliquear en la flechita hacia atrás.
+         
+         
+ 
+
+ 
+
+
+
+
+     
+               
+
+
+
+  

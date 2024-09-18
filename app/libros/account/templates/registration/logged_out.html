@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Cerrar sesión{% endblock %}
+{% block content %}
+<div class="column is-three-quarters">
+  
+  <h1>Cerrar sesión</h1>
+  <p>
+    Se ha cerrado la sesión correctamente.
+    puede <a href="{% url 'login' %}">Iniciar sesión nuevamente</a>.
+  </p>
+</div>
+{% endblock %}
