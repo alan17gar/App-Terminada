@@ -18,6 +18,8 @@ Parte II: Proyecto terminado
 
 La presente app utiliza la base de datos  "SQLITE3" que maneja Django y como ayuda para el diseño del mismo "Bulma".
 
+NOTA: Github no me dejaba subir la carpeta debido al venv, lo cual se me hizo extraño, ya que en la otro yo lo subi completo la carpeta, hasta con el venv. Por el mismo agregue un archivo RAR por si acaso.
+
 Funcionamiento:
 
    1. La misma página le pedirá ingresar algunas de las 2 URL que encontró:
@@ -53,7 +55,9 @@ Desarrollo:
 en cuantos los SMS de emergencias, el diseño y la base de datos.
          4. Al pulsar sobre el botón de eliminar mencionado ya, se eliminará completamente el libro, así que de realizar esta operación, tiene que estar seguro.
          5. El ingresar más datos sobre los inputs y pasar la limitación, le arrojará error. En todo caso solo deberá cliquear en la flechita hacia atrás.
-         
+
+
+
          
  
 
