@@ -17,8 +17,6 @@ Parte II: Proyecto terminado
                *Eliminar  un libro 
 
 La presente app utiliza la base de datos  "SQLITE3" que maneja Django y como ayuda para el diseño del mismo "Bulma".
-  
-Nota: Al tratarlo de subirlo al repositorio de Github, no me dejaba ,le elimine la carpeta venv y se pudo subir. Cualquier error puedo enviarle el archivo RAR
 
 Funcionamiento:
 
